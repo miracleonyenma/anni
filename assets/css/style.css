@@ -38,6 +38,7 @@
   position: relative;
   text-align: center;
   overflow: hidden;
+  font-family: 'Fugaz One', cursive;
 }
 
 #main header::after {
@@ -86,6 +87,7 @@
   color: var(--secondary);
   padding-bottom: 1em;
   overflow: hidden;
+  font-family: 'Fugaz One', cursive;
 }
 
 #main article h1 {
@@ -97,6 +99,7 @@
 
 #main article p {
   font-size: 1.2em;
+  font-family: 'Lato', sans-serif;
 }
 
 #main article footer {

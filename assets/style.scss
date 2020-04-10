@@ -38,6 +38,11 @@
         position: relative;
         text-align: center;
         overflow: hidden;
+        // font-family: 'Pacifico', cursive;
+                // font-family: 'Lato', sans-serif;
+
+        font-family: 'Fugaz One', cursive;
+        // font-family: 'Lobster Two', cursive;
 
         &::after{
             content: attr(data-text);
@@ -78,6 +83,9 @@
         color: var(--secondary);
         padding-bottom: 1em;
         overflow: hidden;
+        // font-family: 'Lobster Two', cursive;
+        font-family: 'Fugaz One', cursive;
+
 
         h1{
             border-left: 4px solid var(--main);
@@ -88,6 +96,8 @@
 
         p{
             font-size: 1.2em;
+            font-family: 'Lato', sans-serif;
+
         }
 
         footer{
