@@ -1,12 +1,12 @@
 <template>
-  <site-header :anniverse="anniverse" />
+  <site-header :anniverse=anniverse />
   <!-- <HelloWorld msg="20th" /> -->
   <router-view @update-anniverse="updateAnniverse($event)"></router-view>
 </template>
 
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import SiteHeader from "./components/SiteHeader.vue";
+import HelloWorld from './components/HelloWorld.vue'
+import SiteHeader from './components/SiteHeader.vue'
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
@@ -14,20 +14,19 @@ import SiteHeader from "./components/SiteHeader.vue";
 
 <script>
 export default {
-  name: "App",
-
-  data() {
-    return {
-      anniverse: 20,
-    };
+    data(){
+    return{
+      anniverse : 20
+    }
   },
-  methods: {
-    updateAnniverse(data) {
+  methods:{
+    updateAnniverse(data){
       console.log(data);
-      this.anniverse = data;
-    },
-  },
-};
+      this.anniverse = data
+    }
+  }
+
+}
 </script>
 
 <style>
