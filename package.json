@@ -1,0 +1,38 @@
+{
+  "name": "anni",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.0.5",
+    "vue-disqus": "^4.0.1",
+    "vue-router": "^4.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.1.1",
+    "vite": "^2.1.5"
+  },
+  "description": "Happy anniversary",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miracleonyenma/anni.git"
+  },
+  "keywords": [
+    "Happy",
+    "anniversary"
+  ],
+  "author": "miracleonyenma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miracleonyenma/anni/issues"
+  },
+  "homepage": "https://github.com/miracleonyenma/anni#readme"
+}
