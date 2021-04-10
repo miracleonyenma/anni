@@ -10,10 +10,10 @@
   --main-2: hsla(335, 85%, 60%, 1);
   --secondary: #3b2b32;
   --bg: #fff;
-  /* --main: hsla(335, 5%, 40%, 1);
+  --main: hsla(335, 5%, 40%, 1);
   --main-2: hsla(335, 5%, 20%, 1);
   --secondary: #3b2b32;
-  --bg: #fff; */
+  --bg: #fff;
 }
 
 #main {
@@ -56,7 +56,7 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-
+  
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
