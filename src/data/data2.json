@@ -1,5 +1,6 @@
-{
-    "2020":{
+[
+    {
+        "year" : "2020",
         "heading" : "Celebrating God's Faithfullness",
         "article" : {
             "p" : [
@@ -11,8 +12,9 @@
             "b" : "Happy anniversary 🎉🎊"
         }
     },
-    "2021":{
-        "heading" : "Grateful for God's Grace",
+    {
+        "year" : "2021",
+        "heading" : "Celebrating God's Faithfullness",
         "article" : {
             "p" : [
                 "We are so blessed and happy to be a witness to this wonderful work of God! 😇 It was Him from the start. He kept and preserved you for his glory to make manifest in all our lives. 😇",
@@ -23,4 +25,5 @@
             "b" : "Happy anniversary 🎉🎊"
         }
     }
-}
+
+]
