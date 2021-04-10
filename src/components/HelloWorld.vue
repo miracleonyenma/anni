@@ -1,6 +1,6 @@
 <template>
-  <section id="main">
-    <header data-text="20th">
+  <section id=" ">
+    <header data-text="20th" class="relative w-full h-64 bg-gradient-to-b from-gray-400 to-gray-700">
       <div>
         <h1>Happy {{msg}} Anniversary!</h1>
         <p>Mum and Dad!</p>

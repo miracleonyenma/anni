@@ -7,7 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.1",
@@ -16,5 +17,21 @@
     "postcss": "^8.2.9",
     "tailwindcss": "^2.1.1",
     "vite": "^2.1.5"
-  }
+  },
+  "description": "Happy anniversary",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miracleonyenma/anni.git"
+  },
+  "keywords": [
+    "Happy",
+    "anniversary"
+  ],
+  "author": "miracleonyenma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miracleonyenma/anni/issues"
+  },
+  "homepage": "https://github.com/miracleonyenma/anni#readme"
 }
