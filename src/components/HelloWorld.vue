@@ -1,7 +1,7 @@
 <template>
   <section id=" ">
     <header data-text="20th" class="relative w-full h-64 bg-gradient-to-b from-gray-400 to-gray-700">
-      <div>
+      <div >
         <h1>Happy {{msg}} Anniversary!</h1>
         <p>Mum and Dad!</p>
       </div>
@@ -49,6 +49,29 @@
   const state = reactive({
     count: 0
   })
+</script>
+
+<script>
+export default {
+      data(){
+      return{
+        anniverse : new Date().getFullYear - 2000
+      }
+    },
+    methods:{
+      getAnniverse(year){
+        let anniverse = year - 2000;
+        console.log(anniverse);
+        this.anniverse = anniverse;
+        this.$emit('updateAnniverse', anniverse);
+
+        return anniverse;
+      }
+    },
+    mounted(){
+      this.getAnniverse(this.$route.params.id);
+    }
+}
 </script>
 
 <style scoped>

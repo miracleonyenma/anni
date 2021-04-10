@@ -7,12 +7,15 @@
 <script>
 export default {
     name: 'SiteHeader',
-    props: ['year'],
-    data(){
-        return{
-            anniverse: "21"
-        }
+    props: ['anniverse'],
+    mounted(){
+        console.log(this.anniverse)
     }
+    // data(){
+    //     return{
+    //         anniverse: "21"
+    //     }
+    // }
 }
 </script>
 
