@@ -23,7 +23,6 @@
     </article>
 
     <aside>
-      <Disqus shortname="anniverse"  />
     </aside>
   </section>
 </template>
@@ -45,11 +44,9 @@
 
 <script>
   import data from "../data/data.json";
-  import { Disqus } from 'vue-disqus';
 
   export default {
     components:{
-      Disqus
     },
     data() {
       return {
