@@ -23,7 +23,7 @@
     </article>
 
     <aside>
-      <Disqus shortname="anniverse" :pageConfig="pageConfig" />
+      <Disqus shortname="anniverse"  />
     </aside>
   </section>
 </template>
